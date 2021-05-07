@@ -8,11 +8,3 @@ class PasswordValidator{
         return false
       }
 }
-// object Main{
-//   def main(args:Array[String]):Unit={
-//   val obj = new PasswordValidator()
-//   println(obj.isValid("1qwAhhj99@"))
-  
-
-//   }
-// }

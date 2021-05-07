@@ -6,10 +6,3 @@ class Palindrome{
             return true
         }
 }
-// object Main3{
-//   def main(args:Array[String]){
-//     val obj =new Palindrome()
-//    println(obj.check_palindrome("avnba")) 
- 
-//   }
-// }

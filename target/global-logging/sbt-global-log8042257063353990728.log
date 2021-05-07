@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(b1a7a962-ed3f-4a98-b814-276b50225a21), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/knoldus/Workspace/UT-IT/target/scala-2.13/classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 7 May 2021, 11:44:40[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

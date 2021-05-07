@@ -5,11 +5,9 @@ version := "0.1"
 scalaVersion := "2.13.4"
 
 // https://mvnrepository.com/artifact/org.mockito/mockito-scala
-//libraryDependencies += "org.mockito" %% "mockito-scala" % "1.16.37" % Test
+libraryDependencies += "org.mockito" %% "mockito-scala" % "1.16.37" % Test
 
 // https://mvnrepository.com/artifact/org.typelevel/discipline-scalatest
-//libraryDependencies += "org.typelevel" %% "discipline-scalatest" % "2.1.4" % Test
-
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.7" % "test"
 
 // https://mvnrepository.com/artifact/org.scalactic/scalactic
