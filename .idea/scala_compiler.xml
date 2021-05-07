@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="IT,IdeaProjects.UT-IT,UT-IT,ut-it_2477,ut-it_3457,ut-it_9109" />
+  </component>
+</project>

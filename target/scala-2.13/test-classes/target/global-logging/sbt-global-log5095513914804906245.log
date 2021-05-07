@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(d8b9b216-8231-4c84-9d0f-661d02a750cc), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/knoldus/Workspace/UT-IT/src/test/scala/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:3:29: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass FactorialTest extends AnyFlatSpec {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:4:15: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  "factorial" should "handle StackOverflowError" in {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:5:20: not found: type Factorial[0m
+[0m[[0m[31merror[0m] [0m[0m    val fact = new Factorial()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:9:3: not found: value it[0m
+[0m[[0m[31merror[0m] [0m[0m  it should "throw NoSuchElementExpected if the input value is 0 or negative" in {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:10:20: not found: type Factorial[0m
+[0m[[0m[31merror[0m] [0m[0m    val fact = new Factorial()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:11:5: not found: value assertThrows[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[NoSuchElementExpection] {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:11:18: not found: type NoSuchElementExpection[0m
+[0m[[0m[31merror[0m] [0m[0m    assertThrows[NoSuchElementExpection] {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PalindromeTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PalindromeTest.scala:3:30: not found: type AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass PalindromeTest extends AnyFlatSpec {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:5:33: not found: type FlatSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass PasswordValidator extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:5:47: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass PasswordValidator extends FlatSpec with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:6:22: value should is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m "PasswordValidator" should "valid" in{[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:8:15: value isValid is not a member of PasswordValidator[0m
+[0m[[0m[31merror[0m] [0m[0m   assert(obj.isValid("1Ahjj2"==false))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/PasswordValidator.scala:9:15: value isValid is not a member of PasswordValidator[0m
+[0m[[0m[31merror[0m] [0m[0m   assert(obj.isValid("Agjjj1234@3"==false))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed 7 May 2021, 08:36:46[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(9d149264-726e-48e0-8625-d1f612e2752c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/knoldus/Workspace/UT-IT/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/CompanyValidator.scala:12:27: not found: value key[0m
+[0m[[0m[31merror[0m] [0m[0m    cmp.companies.foreach(key){[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/CompanyValidator.scala:13:11: not found: value key[0m
+[0m[[0m[31merror[0m] [0m[0m      if( key == company )  [0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 5 May 2021, 17:55:12[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

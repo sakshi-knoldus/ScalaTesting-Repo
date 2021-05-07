@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/test/scala/FactorialTest.scala:8:32: integer number too large[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(fact.factorial(20)==2432902008176640000)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

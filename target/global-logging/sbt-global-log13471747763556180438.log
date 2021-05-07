@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(8d2037fc-1bf9-4ff4-b2f9-26a597519248), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/knoldus/Workspace/UT-IT/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/CompanyValidator.scala:14:22: too many arguments (found 2, expected 1) for method foreach: (f: ((String, com.knoldus.models.Company)) => U): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    list.foreach(key,value){[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/CompanyValidator.scala:15:10: not found: value key[0m
+[0m[[0m[31merror[0m] [0m[0m      if(key==company) return true[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/CompanyValidator.scala:23:18: not found: type CompanyValidate[0m
+[0m[[0m[31merror[0m] [0m[0m    val obj =new CompanyValidate()[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 5 May 2021, 17:21:00[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
