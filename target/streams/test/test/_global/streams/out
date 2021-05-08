@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FactorialTest, org.scalatest.tools.Framework$$anon$1@52f87516, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PasswordValidatorTest, org.scalatest.tools.Framework$$anon$1@52f87516, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(EmailValidatorTest, org.scalatest.tools.Framework$$anon$1@52f87516, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PalindromeTest, org.scalatest.tools.Framework$$anon$1@52f87516, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CompanyValidatorTest, org.scalatest.tools.Framework$$anon$1@52f87516, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmailValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany Name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should exits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindromeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactorialTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfactorial[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle StackOverflowError[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPasswordValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPasswordValidator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should validate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany Name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should exits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 242 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FactorialTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PalindromeTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PasswordValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EmailValidatorTest[0m

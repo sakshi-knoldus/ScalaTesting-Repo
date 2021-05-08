@@ -3,12 +3,12 @@ import scala.util.matching.Regex
  import com.knoldus.db.CompanyReadDto 
 
 class EmailValidator {
-
+  // check the format of email is valid
   def isValid(emailId: String): Boolean = {
    if("""(?=[^\s]+)(?=(\w+)@([\w\.]+))""".r.findFirstIn(emailId) == None) false
      else true
   }
-  // to check if it also exit in our database
+  // to check if it also exit in our database the email
   def exitInDb(emailId: String): Boolean = {
    val cmp= new CompanyReadDto()
     for((key,value)<-cmp.companies){

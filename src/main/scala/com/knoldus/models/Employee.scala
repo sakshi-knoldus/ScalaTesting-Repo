@@ -7,3 +7,4 @@ case class Employee(firstName: String,
                     designation: String,
                     companyName: String,
                     emailId: String)
+

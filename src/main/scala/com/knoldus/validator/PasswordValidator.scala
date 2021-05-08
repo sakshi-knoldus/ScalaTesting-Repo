@@ -1,3 +1,4 @@
+package com.knoldus.validator
 import scala.util.matching.Regex
 
 class PasswordValidator{

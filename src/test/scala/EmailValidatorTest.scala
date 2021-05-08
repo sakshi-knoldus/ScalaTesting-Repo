@@ -1,3 +1,4 @@
+import com.knoldus.validator.EmailValidator
 import org.scalatest.flatspec.AnyFlatSpec
 
 class EmailValidatorTest extends AnyFlatSpec {

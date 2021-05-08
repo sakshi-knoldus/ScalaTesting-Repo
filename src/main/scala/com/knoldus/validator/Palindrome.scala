@@ -1,3 +1,5 @@
+package com.knoldus.validator
+
 class Palindrome{
        def check_palindrome(str:String):Boolean={
             for(i<-0 until str.length/2){

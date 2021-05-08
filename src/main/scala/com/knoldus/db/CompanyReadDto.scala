@@ -11,5 +11,4 @@ class CompanyReadDto {
   val companies: HashMap[String, Company] = HashMap("Knoldus" -> knoldusCompany, "Philips" -> philipsCompany)
 
   def getCompanyByName(name: String): Option[Company] = companies.get(name)
-
 }

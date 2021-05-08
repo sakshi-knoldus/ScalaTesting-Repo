@@ -1,13 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/EmailValidator.scala:9:33: invalid escape character[0m
-[0m[[0m[31merror[0m] [0m[0m    val regex= new Regex("(?=[^\s]+)(?=(\w+)@([\w\.]+)$")[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/EmailValidator.scala:9:42: invalid escape character[0m
-[0m[[0m[31merror[0m] [0m[0m    val regex= new Regex("(?=[^\s]+)(?=(\w+)@([\w\.]+)$")[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/EmailValidator.scala:9:49: invalid escape character[0m
-[0m[[0m[31merror[0m] [0m[0m    val regex= new Regex("(?=[^\s]+)(?=(\w+)@([\w\.]+)$")[0m
-[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/validator/EmailValidator.scala:9:51: invalid escape character[0m
-[0m[[0m[31merror[0m] [0m[0m    val regex= new Regex("(?=[^\s]+)(?=(\w+)@([\w\.]+)$")[0m
-[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/request/EmployeeImpl.scala:4:8: object EmployeeValidator is not a member of package com.knoldus.validator[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.knoldus.validator.EmployeeValidator[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Workspace/UT-IT/src/main/scala/com/knoldus/request/EmployeeImpl.scala:6:39: not found: type EmployeeValidator[0m
+[0m[[0m[31merror[0m] [0m[0mclass EmployeeImpl(employeeValidator: EmployeeValidator) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
